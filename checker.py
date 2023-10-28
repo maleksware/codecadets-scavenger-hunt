@@ -1,8 +1,6 @@
 from flask import Flask, request, make_response, render_template
 import uuid
 
-# База архитектуры: регистрация пользователя при сканировании первого кода, генерация рандомных ID на QR-кодах
-# На устройстве храним cookie с айдишником
 
 global registered_users
 registered_users = {}
