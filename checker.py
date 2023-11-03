@@ -6,9 +6,9 @@ global registered_users
 registered_users = {}
 station_mapping = {}
 
-next_station = {"start": 4779, 4779: 9262, 9262: 3146, 3146: 1668, 1668: 9145, 9145: 6596, 6596: 3374}
+next_station = {"start": 4779, 4779: 9262, 9262: 3146, 3146: 1668, 1668: 9145, 9145: 6596, 6596: 3374, 3374: 3232}
 
-station_uuids = [4779, 9262, 3146, 1668, 9145, 6596, 3374]
+station_uuids = [4779, 9262, 3146, 1668, 9145, 6596, 3374, 3232]
 station_questions = [
     "Welcome to the ScaNvenger Hunt! Go to the printer on level 3 for your next clue.",
     "-... .. -. / --- -. / .-.. ...- .-.. / ..--- ",
@@ -16,7 +16,8 @@ station_questions = [
     "⠝⠑⠭⠞ ⠉⠇⠥⠑ ⠤ ⠇⠧⠇ ⠒ ⠎⠉⠥⠇⠏⠞⠥⠗⠑",
     "R28gdG8gdGhlIG1haW50ZW5hbmNlIGN1cGJvYXJkIG9uIEx2bCAy=",
     "43 68 65 63 6b 20 74 68 65 20 46 6f 6f 64 20 43 6f 72 6e 65 72 20 6f 6e 20 4c 76 6c 20 31",
-    "Congratulations! You have completed the ScaNvenger Hunt!"
+    "103 150 145 143 153 40 164 150 145 40 114 145 147 157 40 127 141 154 154",
+    "Congratulations! You have completed the ScaNvenger Hunt!",
     ]
 
 
