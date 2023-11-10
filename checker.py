@@ -10,7 +10,7 @@ next_station = {"start": 9262, 9262: 3146, 3146: 1668, 1668: 9145, 9145: 6596, 6
 
 station_uuids = [9262, 3146, 1668, 9145, 6596, 3374, 3232, 8374, 2498, 4779]
 station_questions = [
-    "Welcome to the ScaNvenger Hunt! Go to the printer on level 3 for your next clue.",
+    "Welcome to the CodeCadets Wrapped Scavenger Hunt! Go to the printer on level 3 for your next clue.",
     "-... .. -. / --- -. / .-.. ...- .-.. / ..--- ",
     "01000011 01101000 01100101 01100011 01101011 00100000 01110100 01101000 01100101 00100000 01010000 01101001 01100001 01101110 01101111",
     "⠝⠑⠭⠞ ⠉⠇⠥⠑ ⠤ ⠇⠧⠇ ⠒ ⠎⠉⠥⠇⠏⠞⠥⠗⠑",
@@ -19,7 +19,7 @@ station_questions = [
     r"SC%C2%B2%E2%81%B0%E2%81%B6",
     "902953 7924613 (Hint: Look Around...)",
     "103 150 145 143 153 40 164 150 145 40 114 145 147 157 40 127 141 154 154",
-    "Congratulations! You have completed the ScaNvenger Hunt! Please return to the start so we can record your points.",
+    "Congratulations! You have completed the Scavenger Hunt! Please return to the start (2nd floor) so we can record your points.",
 ]
 
 
