@@ -47,7 +47,7 @@ def reg_new_user():
     new_user_id = str(uuid.uuid4())
 
     resp = make_response(render_template("index.html", question=station_mapping[next_station["start"]].question))
-    resp.set_cookie("uuid", new_user_id, max_age=60*60)
+    resp.set_cookie("uuid", new_user_id, max_age=60*60*24)
 
     registered_users[new_user_id] = User(new_user_id, 0)
 
