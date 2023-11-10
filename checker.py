@@ -19,8 +19,8 @@ station_questions = [
     r"SC%C2%B2%E2%81%B0%E2%81%B6",
     "902953 7924613 (Hint: Look Around...)",
     "103 150 145 143 153 40 164 150 145 40 114 145 147 157 40 127 141 154 154",
-    "Congratulations! You have completed the ScaNvenger Hunt!",
-    ]
+    "Congratulations! You have completed the ScaNvenger Hunt! Please return to the start so we can record your points.",
+]
 
 
 class Station:
