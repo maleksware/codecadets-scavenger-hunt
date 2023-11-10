@@ -6,9 +6,9 @@ global registered_users
 registered_users = {}
 station_mapping = {}
 
-next_station = {"start": 9262, 9262: 3146, 3146: 1668, 1668: 9145, 9145: 6596, 6596: 3374, 3374: 3232, 3232: 8374, 8374: 2498}
+next_station = {"start": 9262, 9262: 3146, 3146: 1668, 1668: 9145, 9145: 6596, 6596: 3374, 3374: 3232, 3232: 8374, 8374: 2498, 2498: 4779}
 
-station_uuids = [9262, 3146, 1668, 9145, 6596, 3374, 3232, 8374, 2498]
+station_uuids = [9262, 3146, 1668, 9145, 6596, 3374, 3232, 8374, 2498, 4779]
 station_questions = [
     "Welcome to the ScaNvenger Hunt! Go to the printer on level 3 for your next clue.",
     "-... .. -. / --- -. / .-.. ...- .-.. / ..--- ",
@@ -55,16 +55,13 @@ def reg_new_user():
 
 @app.route("/station/<int:station_id>")
 def process_station(station_id):
-    print(station_id)
     if station_id in station_mapping:
         cur_user_id = request.cookies.get("uuid")
         global registered_users
-        print(cur_user_id, registered_users)
 
         if cur_user_id in registered_users:
             cur_station = station_mapping[station_id].number
             user_progress = registered_users[cur_user_id].progress # last visited station
-            print(cur_station, user_progress)
 
             if cur_station <= user_progress + 1:
                 registered_users[cur_user_id].progress = cur_station
